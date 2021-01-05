@@ -1,21 +1,60 @@
-/**index.wxss**/
-.userinfo {
+.c1 {
+  color: red;
+}
+
+.menu image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+
+.menu {
   display: flex;
-  flex-direction: column;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.menu .item {
+  display: flex;
+  flex-flow: column;
   align-items: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.auction .item {
+
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.auction .item .title {
+  font-size: 50rpx;
+  font-weight: 600;
 }
 
-.usermotto {
-  margin-top: 200px;
+.auction .item .tips {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-size: 30rpx;
+    color: #8c8c8c;
+}
+
+.auction .item .big {
+  height: 400rpx;
+  overflow: hidden;
+}
+
+.auction .item .big image {
+  height: 100%;
+  width: 100%;
+}
+
+.auction .item .small {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.auction .item .small image {
+  height: 100rpx;
+  width: 100rpx;
+  padding-right: 5rpx;
 }
